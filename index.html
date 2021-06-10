@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+  <title>Javascript Quiz</title>
+</head>
+ 
+<body>
+  <!-- top section  -->
+  <div class="intro bg-white ">
+    <div class="container">
+      <h3 class="text-success">Javascript Quiz</h3>
+    </div>
+  </div>
+
+  <!--Result section-->
+  <div class="result d-none bg-light">
+    <div class="container lead">
+        <p>You got <span class="text-success"></span> result </p>
+    </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz bg-success">
+    <div class="container">
+      <h2 class="text-white">Test your knowledge of Javascript</h2>
+      <form class="quiz-form text-light">
+          <!--First Question-->
+        <div class="question-box">
+          <p class="lead">
+            1. What is the output of 3 + 3 + "4" ?
+          </p>
+          <div class="form-check ">
+            <input type="radio" name="q1" value="A" >
+            <label for="" class="form-check-label">64</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="q1" value="B" >
+            <label for="" class="form-check-label">10</label>
+          </div>
+        </div>
+        <!-- Second Question -->
+        <div class="question-box">
+          <p class="lead ">
+           2. Integer is a data type in Javascript
+          </p>
+          <div class="form-check">
+            <input type="radio" name="q2" value="A" >
+            <label for="" class="form-check-label">Yes</label>
+          </div>
+          <div class="form-check ">
+            <input type="radio" name="q2" value="B" >
+            <label for="" class="form-check-label">No</label>
+          </div>
+        </div>
+        <!-- Third Question -->
+        <div class="question-box">
+          <p class="lead ">
+            3. The output of isNaN('123ABC') is ...
+          </p>
+          <div class="form-check">
+            <input type="radio" name="q3" value="A" >
+            <label for="" class="form-check-label">true</label>
+          </div>
+          <div class="form-check ">
+            <input type="radio" name="q3" value="B" >
+            <label for="" class="form-check-label">false </label>
+          </div>
+        </div>
+        <!-- Fourth Question  -->
+        <div class="question-box">
+          <p class="lead ">
+            4. You can change the value of this variable "let age = 20"
+          </p>
+          <div class="form-check">
+            <input type="radio" name="q4" value="A" >
+            <label for="" class="form-check-label">Yes</label>
+          </div>
+          <div class="form-check ">
+            <input type="radio" name="q4" value="B" >
+            <label for="" class="form-check-label">No</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-light">
+        </div>
+      </form>
+    </div>
+  </div>
+ 
+ 
+  <script src="app.js"></script>
+</body>
+ 
+</html>

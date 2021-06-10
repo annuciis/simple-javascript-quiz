@@ -1,0 +1,115 @@
+.intro,.result{
+    text-align: center;
+}
+
+.intro{
+    margin: 3% auto;
+
+    h3{
+        font-size: 4rem;
+    }
+   
+}
+
+
+.result{
+    padding: 1.5% 0;
+
+    p{
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    span{
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 0 0.7%;
+    }
+}
+
+.quiz{
+    padding: 4% 0;
+
+    .question-box{
+        margin: 3% auto;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .intro{
+        margin: 5% auto;
+        h3{
+            font-size: 3rem;
+        }
+    }
+
+    .result{
+        p{
+            font-size: 1rem;
+        }
+        span{
+            font-size: 2rem;
+        }
+    }
+
+    .quiz{
+        h2{
+            font-size: 1.5rem;
+        }
+        .container{
+            max-width: 90%;
+        }
+
+        .question-box{
+            margin: 4% auto;
+
+            p.lead{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:505px){
+    .quiz{
+        .question-box{
+            margin: 8% 0;
+        }
+    }
+}
+
+@media screen and (max-width:400px){
+    .intro{
+        margin: 8% auto;
+
+        h3{
+            font-size: 2.5rem;
+        }
+    }
+    .result{
+        padding: 2.5% 0;
+    }
+
+    .quiz{
+        padding: 7% 0;
+    }
+}
+
+@media  screen and (max-width:355px) {
+    .quiz{
+        h2{
+            font-size: 1.2rem;
+        }
+
+        .question-box{
+            margin: 10% 0;
+        }
+
+        p.lead{
+            font-size: 0.8rem;
+        }
+    }
+}
